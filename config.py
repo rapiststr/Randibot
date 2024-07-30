@@ -6,13 +6,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = 
-API_HASH = ""
-BOT_TOKEN = ""
-MONGO_DB_URI = ""
+API_ID = "27664215"
+API_HASH = "ee80e1e1f089d9925f94934c8b694902"
+BOT_TOKEN = "6997857485:AAGM7DeYYT1sQjmcar3enKjuSUaYILlF88Y"
+MONGO_DB_URI = "mongodb+srv://poojaranapoojarana58:ofD9NTXTMNSYpX3E@cluster0.fbkbkaa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-LOG_GROUP_ID = 
-OWNER_ID = 
+LOG_GROUP_ID = "-1002197757574"
+OWNER_ID = "5094606253"
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -29,16 +29,16 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Beasts_Network")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Beasts_Bot_Support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "c9ed1b7953434fe3b8085ea9036af951")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "1413e43cfc254717bba72d06ab1ae543")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
@@ -52,7 +52,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = ""
+STRING1 = "BQGmH1cAulz7J1xj86bTKzlHMMWM3BRPR5RLswunsf1csDolAOCE22EMJWSsqzoul2USWE_ilTEYPA39x30DemyunqYCY_LhmNSDCMJ5MLrAgkxfQW6ZCt_XorWAkUHP9nl_4H4YVbwlBROus925exLTdM-8hliBbqKYJCG0tv559-I7EaQZRwydFEZeqC6-ZMZCqjnKkg4Dy7AgQfKDHufiDLH3vYC_c7r5WwdVlARZN3F7l5AVbsWMfLU3qbQqddbLYgozyHMuWwPZlW3VY_yl97Z79IdTPuWrcfD4XI5eXy53Iqs3u9hZ7JWG9OEAh_f7dhTnC4qpFMRfINjGwMKUQXKODQAAAAF9jKu9AA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -68,14 +68,14 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/d0e6aa5fc70d022a4f312.jpg"
+    "START_IMG_URL", "https://graph.org/file/74a1135aa0ba2b414244f.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/d0e6aa5fc70d022a4f312.jpg"
+    "PING_IMG_URL", "https://graph.org/file/c9da1d33f44867307a371.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/7aa263a19bd1b8148411b.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/2c75c0d89a9cc7b0a4777.jpg"
 STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/62303157724eb625539e8.jpg"
 TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
@@ -104,3 +104,4 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+        
