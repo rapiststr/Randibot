@@ -11,7 +11,7 @@ API_HASH = "ee80e1e1f089d9925f94934c8b694902"
 BOT_TOKEN = "6997857485:AAGM7DeYYT1sQjmcar3enKjuSUaYILlF88Y"
 MONGO_DB_URI = "mongodb+srv://poojaranapoojarana58:ofD9NTXTMNSYpX3E@cluster0.fbkbkaa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
-LOG_GROUP_ID = "-1002197757574"
+LOG_GROUP_ID = "-1002110115506"
 OWNER_ID = "5094606253"
 
 ## Fill these variables if you're deploying on heroku.
